@@ -1,10 +1,6 @@
 # Yuliya Valter
 
----
-
 ## Junior Frontend Developer
-
----
 
 ## Contacts:
 
@@ -16,15 +12,11 @@
 >
 > [GitHub](https://github.com/whirligigY)
 
----
-
 ## About me:
 
 Hi, I'm a Junior Front-end Developer and love writing code. Last year I worked as a website developer (layout +React js) at a video advertising service startup in my city. At the moment I would love to work for a large company with interesting projects. I'm a fast learner and enjoy solving tasks of different complexity.
 
 Till now I have been engaged in the promotion of sites in search networks, layout, and content of sites. My previous experience helps me to write code more efficiently now.
-
----
 
 ## Skills
 
@@ -40,8 +32,6 @@ Till now I have been engaged in the promotion of sites in search networks, layou
   - Figma
   - Photoshop
 
----
-
 ## Code example:
 
 ```
@@ -50,8 +40,6 @@ function solution(number)	{
   	return [...Array(number-1)].map((el, index)=>index+1).reduce((acc,item)=>item%3===0||item%5===0? acc+item:acc,0)
 }
 ```
-
----
 
 ## Experience and courses:
 
@@ -72,14 +60,10 @@ function solution(number)	{
   - Web layout for beginners (Skillbox school)
   - JavaScript baseline (Skillbox school)
 
----
-
 ## Education
 
 1. Tomsk Polytechnic University, Faculty of Automation and Computer Engineering, specialty Mechatronics (engineering degree, 2000-2006)
 2. Tomsk Polytechnic University, Faculty of Economics, Accounting, Analysis, Audit (2007-2008)
-
----
 
 ## Languages
 
