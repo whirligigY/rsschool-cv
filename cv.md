@@ -71,3 +71,16 @@ function solution(number)	{
   - JavaScript from the ground up (Skillbox online school)
   - Web layout for beginners (Skillbox school)
   - JavaScript baseline (Skillbox school)
+
+---
+
+## Education
+
+1. Tomsk Polytechnic University, Faculty of Automation and Computer Engineering, specialty Mechatronics (engineering degree, 2000-2006)
+2. Tomsk Polytechnic University, Faculty of Economics, Accounting, Analysis, Audit (2007-2008)
+
+---
+
+## Languages
+
+English (_Intermediate_), Russian (_native_)
