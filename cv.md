@@ -41,3 +41,33 @@ Till now I have been engaged in the promotion of sites in search networks, layou
   - Photoshop
 
 ---
+
+## Code example:
+
+```
+function solution(number)	{
+  	if(!number || isNaN(Number(number))|| number<0) return 0
+  	return [...Array(number-1)].map((el, index)=>index+1).reduce((acc,item)=>item%3===0||item%5===0? acc+item:acc,0)
+}
+```
+
+---
+
+## Experience and courses:
+
+- Experience:
+
+  - Origits LTD (1 year Front-end Developer, website layout)
+
+  - Work examples:
+    - [A project to find friends for the evening](https://github.com/whirligigfast-company-filter)
+    - [Calculator](https://github.com/whirligigY/calculator)
+    - [A context menu progect](https://github.com/whirligigY/hackathon)
+
+- Courses:
+
+  - RS School "JavaScript/Front-end Stage1" (2021 Q3)
+  - JavaScript Junior Frontend Developer (Vladilen Minin school)
+  - JavaScript from the ground up (Skillbox online school)
+  - Web layout for beginners (Skillbox school)
+  - JavaScript baseline (Skillbox school)
