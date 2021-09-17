@@ -1,6 +1,6 @@
 # Yuliya Valter
 
-## Junior Frontend Developer
+Junior Frontend Developer
 
 ## Contacts:
 
@@ -60,11 +60,11 @@ function solution(number)	{
   - Web layout for beginners (Skillbox school)
   - JavaScript baseline (Skillbox school)
 
-## Education
+## Education:
 
 1. Tomsk Polytechnic University, Faculty of Automation and Computer Engineering, specialty Mechatronics (engineering degree, 2000-2006)
 2. Tomsk Polytechnic University, Faculty of Economics, Accounting, Analysis, Audit (2007-2008)
 
-## Languages
+## Languages:
 
 English (_Intermediate_), Russian (_native_)
