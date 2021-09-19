@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header-nav">
+        <ul class="header-nav-list">
+          <li class="header-nav-item"><a href="#contacts">Contacts</a></li>
+          <li class="header-nav-item"><a href="#about">About me</a></li>
+          <li class="header-nav-item"><a href="#skills">Skills</a></li>
+          <li class="header-nav-item"><a href="#example">Code example</a></li>
+          <li class="header-nav-item">
+            <a href="#experience">Experience and courses</a>
+          </li>
+          <li class="header-nav-item"><a href="#education">Education</a></li>
+          <li class="header-nav-item"><a href="#languages">Languages</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="row justify-content-center columns">
+          <div class="column-left">
+            <div class="column-left-image-block">
+              <img
+                class="column-left-image"
+                src="./images/IMG_8294.jpg"
+                alt="Valter Yulia photo"
+              />
+            </div>
+
+            <section>
+              <h4 class="heading-4 heading-contacts-info" id="contacts">
+                Contacts:
+              </h4>
+              <ul class="contacts-list">
+                <li class="contacts-item">phone: +7(923) 440-53-33</li>
+                <li class="contacts-item">e-mail: yuliavv@mail.ru</li>
+                <li class="contacts-item">telegtam: @WhirligigY</li>
+                <li class="contacts-item">
+                  <a
+                    class="contacts-link-resume"
+                    href="https://github.com/whirligigY"
+                    >GitHub</a
+                  >
+                </li>
+              </ul>
+            </section>
+          </div>
+          <div class="column-right">
+            <h1 class="heading-main">Yuliya Valter</h1>
+            <h3 class="heading-3">Junior Frontend Developer</h3>
+            <h4 class="heading-4 heading-about-info" id="about">About me:</h4>
+            <article>
+              Hi, I'm a Junior Front-end Developer and love writing code. Last
+              year I worked as a website developer (layout +React js) at a video
+              advertising service startup in my city. At the moment I would love
+              to work for a large company with interesting projects. I'm a fast
+              learner and enjoy solving tasks of different complexity. Till now
+              I have been engaged in the promotion of sites in search networks,
+              layout, and content of sites. My previous experience helps me to
+              write code more efficiently now.
+            </article>
+            <section>
+              <h4 class="heading-4 heading-skills-info" id="skills">Skills:</h4>
+              <div class="skills-block">
+                <div class="skill-block-column">
+                  <h5 class="heading-6">Tech:</h5>
+                  <ul class="skills-list">
+                    <li class="skills-internal-item">Javascript</li>
+                    <li class="skills-internal-item">React</li>
+                    <li class="skills-internal-item">Redux</li>
+                    <li class="skills-internal-item">Next</li>
+                    <li class="skills-internal-item">HTML&CSS</li>
+                  </ul>
+                </div>
+                <div class="skill-block-column">
+                  <h5 class="heading-6">Tools:</h5>
+                  <ul class="skills-list">
+                    <li class="skills-internal-item">VSCode</li>
+                    <li class="skills-internal-item">Git & GitHub</li>
+                    <li class="skills-internal-item">Figma</li>
+                    <li class="skills-internal-item">Photoshop</li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+            <section>
+              <h4 class="heading-4 heading-code-info" id="example">
+                Code example:
+              </h4>
+              ` const solution=number=> { if(!number || isNaN(Number(number))||
+              number<0) return 0 return [...Array(number-1)].map((el,
+              index)=>index+1).reduce((acc,item)=>item%3===0||item%5===0?
+              acc+item:acc,0) } `
+            </section>
+            <section>
+              <h4 class="heading-4 heading-code-info" id="experience">
+                Experience and courses:
+              </h4>
+              <h6 class="heading-6">Experience:</h5>
+              <ul>
+                <li>
+                  Origits LTD (1 year Front-end Developer, website layout)
+                </li>
+                <li>Work examples:</li>
+                <ul>
+                  <li>
+                    <a href="https://github.com/whirligig/fast-company">
+                      A project to find friends for the evening
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/whirligigY/calculator">
+                      Calculator
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/whirligigY/hackathon">
+                      A context menu progect
+                    </a>
+                  </li>
+                </ul>
+              </ul>
+              <h6 class="heading-6">Courses:</h5>
+              <ul>
+                <li>RS School "JavaScript/Front-end Stage1" (2021 Q3)</li>
+                <li>
+                  JavaScript Junior Frontend Developer (Vladilen Minin school)
+                </li>
+                <li>JavaScript from the ground up (Skillbox online school)</li>
+                <li>Web layout for beginners (Skillbox school)</li>
+                <li>JavaScript baseline (Skillbox school)</li>
+              </ul>
+            </section>
+            <section>
+              <h4 class="heading-4 heading-code-info" id="education">
+                Education:
+              </h4>
+              <ol>
+                <li>
+                  Tomsk Polytechnic University, Faculty of Automation and
+                  Computer Engineering, specialty Mechatronics (engineering
+                  degree, 2000-2006)
+                </li>
+                <li>
+                  Tomsk Polytechnic University, Faculty of Economics,
+                  Accounting, Analysis, Audit (2007-2008)
+                </li>
+              </ol>
+            </section>
+            <section>
+              <h4 class="heading-4 heading-code-info" id="languages">
+                Languages:
+              </h4>
+              <p>English (Intermediate), Russian (native)</p>
+            </section>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-block">
+        <a class="footer-github-link" href="https://github.com/whirligigY"
+          >Visit my GitHub</a
+        >
+        <p class="footer-github-year">© 2021</p>
+        <a class="footer-rs-school-logo" href="https://rs.school/js"
+          ><img
+            src="./icons/rs_school_js.svg"
+            alt="rs-school"
+            width="80"
+            height="80"
+        /></a>
+      </div>  
+    </footer>
+  </body>
+</html>
