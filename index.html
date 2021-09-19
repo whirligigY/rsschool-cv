@@ -30,7 +30,7 @@
       </nav>
     </header>
     <main>
-      <div class="container">
+      <div class="container container-common">
         <div class="row justify-content-center columns">
           <div class="column-left">
             <div class="column-left-image-block">
@@ -62,22 +62,26 @@
           <div class="column-right">
             <h1 class="heading-main">Yuliya Valter</h1>
             <h3 class="heading-3">Junior Frontend Developer</h3>
-            <h4 class="heading-4 heading-about-info" id="about">About me:</h4>
+
             <article>
-              Hi, I'm a Junior Front-end Developer and love writing code. Last
-              year I worked as a website developer (layout +React js) at a video
-              advertising service startup in my city. At the moment I would love
-              to work for a large company with interesting projects. I'm a fast
-              learner and enjoy solving tasks of different complexity. Till now
-              I have been engaged in the promotion of sites in search networks,
-              layout, and content of sites. My previous experience helps me to
-              write code more efficiently now.
+              <h4 class="heading-4 heading-about-info" id="about">About me:</h4>
+              <p>
+                Hi, I'm a Junior Front-end Developer and love writing code. Last
+                year I worked as a website developer (layout +React js) at a
+                video advertising service startup in my city. At the moment I
+                would love to work for a large company with interesting
+                projects. I'm a fast learner and enjoy solving tasks of
+                different complexity. Till now I have been engaged in the
+                promotion of sites in search networks, layout, and content of
+                sites. My previous experience helps me to write code more
+                efficiently now.
+              </p>
             </article>
             <section>
               <h4 class="heading-4 heading-skills-info" id="skills">Skills:</h4>
               <div class="skills-block">
                 <div class="skill-block-column">
-                  <h5 class="heading-6">Tech:</h5>
+                  <h5 class="heading-5">Tech:</h5>
                   <ul class="skills-list">
                     <li class="skills-internal-item">Javascript</li>
                     <li class="skills-internal-item">React</li>
@@ -87,7 +91,7 @@
                   </ul>
                 </div>
                 <div class="skill-block-column">
-                  <h5 class="heading-6">Tools:</h5>
+                  <h5 class="heading-5">Tools:</h5>
                   <ul class="skills-list">
                     <li class="skills-internal-item">VSCode</li>
                     <li class="skills-internal-item">Git & GitHub</li>
@@ -97,44 +101,43 @@
                 </div>
               </div>
             </section>
-            <section>
+            <section class="code-section">
               <h4 class="heading-4 heading-code-info" id="example">
                 Code example:
               </h4>
-              ` const solution=number=> { if(!number || isNaN(Number(number))||
-              number<0) return 0 return [...Array(number-1)].map((el,
-              index)=>index+1).reduce((acc,item)=>item%3===0||item%5===0?
-              acc+item:acc,0) } `
+              <div class="code-block-image">
+                <img class="code-image" src="./images/code.png" alt="code" />
+              </div>
             </section>
             <section>
-              <h4 class="heading-4 heading-code-info" id="experience">
+              <h4 class="heading-4 heading-experience-info" id="experience">
                 Experience and courses:
               </h4>
-              <h6 class="heading-6">Experience:</h5>
+              <h5 class="heading-5">Experience:</h5>
               <ul>
                 <li>
                   Origits LTD (1 year Front-end Developer, website layout)
                 </li>
-                <li>Work examples:</li>
-                <ul>
-                  <li>
-                    <a href="https://github.com/whirligig/fast-company">
-                      A project to find friends for the evening
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/whirligigY/calculator">
-                      Calculator
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/whirligigY/hackathon">
-                      A context menu progect
-                    </a>
-                  </li>
-                </ul>
               </ul>
-              <h6 class="heading-6">Courses:</h5>
+              <h6 class="heading-6 heading-examples">Work examples:</h6>
+              <ul>
+                <li>
+                  <a href="https://github.com/whirligig/fast-company">
+                    A project to find friends for the evening
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/whirligigY/calculator">
+                    Calculator
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/whirligigY/hackathon">
+                    A context menu progect
+                  </a>
+                </li>
+              </ul>
+              <h5 class="heading-5">Courses:</h5>
               <ul>
                 <li>RS School "JavaScript/Front-end Stage1" (2021 Q3)</li>
                 <li>
@@ -146,7 +149,7 @@
               </ul>
             </section>
             <section>
-              <h4 class="heading-4 heading-code-info" id="education">
+              <h4 class="heading-4 heading-education-info" id="education">
                 Education:
               </h4>
               <ol>
@@ -162,7 +165,7 @@
               </ol>
             </section>
             <section>
-              <h4 class="heading-4 heading-code-info" id="languages">
+              <h4 class="heading-4 heading-languages-info" id="languages">
                 Languages:
               </h4>
               <p>English (Intermediate), Russian (native)</p>
@@ -184,7 +187,7 @@
             width="80"
             height="80"
         /></a>
-      </div>  
+      </div>
     </footer>
   </body>
 </html>
