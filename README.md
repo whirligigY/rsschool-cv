@@ -1,1 +1,1 @@
-https://whirligigY.github.io/rsschool-cv/cv
+https://whirligigY.github.io/rsschool-cv/
