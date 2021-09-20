@@ -15,17 +15,34 @@
   </head>
   <body>
     <header class="header">
+      <a class="header-menu" href="/">
+        <span class="header-menu-icon"></span>
+      </a>
       <nav class="header-nav">
         <ul class="header-nav-list">
-          <li class="header-nav-item"><a href="#contacts">Contacts</a></li>
-          <li class="header-nav-item"><a href="#about">About me</a></li>
-          <li class="header-nav-item"><a href="#skills">Skills</a></li>
-          <li class="header-nav-item"><a href="#example">Code example</a></li>
           <li class="header-nav-item">
-            <a href="#experience">Experience and courses</a>
+            <a class="header-nav-link" href="#contacts">Contacts</a>
           </li>
-          <li class="header-nav-item"><a href="#education">Education</a></li>
-          <li class="header-nav-item"><a href="#languages">Languages</a></li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="#about">About me</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="#example">Code example</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="#experience"
+              >Experience and courses</a
+            >
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="#education">Education</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="#languages">Languages</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -41,17 +58,27 @@
               />
             </div>
 
-            <section>
+            <section class="section-contacts">
               <h4 class="heading-4 heading-contacts-info" id="contacts">
                 Contacts:
               </h4>
               <ul class="contacts-list">
-                <li class="contacts-item">phone: +7(923) 440-53-33</li>
-                <li class="contacts-item">e-mail: yuliavv@mail.ru</li>
+                <li class="contacts-item">
+                  phone:
+                  <a class="contacts-link" href="tel:+79234405333"
+                    >+7(923) 440-53-33</a
+                  >
+                </li>
+                <li class="contacts-item">
+                  e-mail:
+                  <a class="contacts-link" href="mailto:yuliavv@mail.ru"
+                    >yuliavv@mail.ru</a
+                  >
+                </li>
                 <li class="contacts-item">telegtam: @WhirligigY</li>
                 <li class="contacts-item">
                   <a
-                    class="contacts-link-resume"
+                    class="contacts-link contacts-link-resume"
                     href="https://github.com/whirligigY"
                     >GitHub</a
                   >
@@ -61,7 +88,7 @@
           </div>
           <div class="column-right">
             <h1 class="heading-main">Yuliya Valter</h1>
-            <h3 class="heading-3">Junior Frontend Developer</h3>
+            <h3 class="heading-3 heading-sub">Junior Frontend Developer</h3>
 
             <article>
               <h4 class="heading-4 heading-about-info" id="about">About me:</h4>
@@ -81,7 +108,7 @@
               <h4 class="heading-4 heading-skills-info" id="skills">Skills:</h4>
               <div class="skills-block">
                 <div class="skill-block-column">
-                  <h5 class="heading-5">Tech:</h5>
+                  <h5 class="heading-5 heading-skills">Tech:</h5>
                   <ul class="skills-list">
                     <li class="skills-internal-item">Javascript</li>
                     <li class="skills-internal-item">React</li>
@@ -91,7 +118,7 @@
                   </ul>
                 </div>
                 <div class="skill-block-column">
-                  <h5 class="heading-5">Tools:</h5>
+                  <h5 class="heading-5 heading-skills">Tools:</h5>
                   <ul class="skills-list">
                     <li class="skills-internal-item">VSCode</li>
                     <li class="skills-internal-item">Git & GitHub</li>
@@ -105,8 +132,18 @@
               <h4 class="heading-4 heading-code-info" id="example">
                 Code example:
               </h4>
-              <div class="code-block-image">
-                <img class="code-image" src="./images/code.png" alt="code" />
+              <div class="code-block">
+                <!--<img class="code-image" src="./images/code.png" alt="code" />
+                -->
+                <pre class="code-block-code"> 
+<span class="color-pink">function </span><span class="color-green">solution</span>(<span class="color-yellow">number</span>)	{
+  <span class="color-pink">if </span>(<span class="color-orange">!</span>number <span class="color-orange">||</span> <span class="color-blue">isNaN</span>(<span class="color-blue">Number</span>(number))<span class="color-orange">||</span> number<span class="color-orange">&lt;</span><span class="color-yellow">0</span>) <span class="color-pink"> return</span> <span class="color-yellow">0</span>
+  <span class="color-pink">if</span> (number)<span class="color-pink"> return</span> [<span class="color-orange">...</span>Array(number<span class="color-orange">-</span><span class="color-yellow">1</span>)]
+    .<span class="color-blue">map</span>((<span class="color-yellow">el</span>, <span class="color-yellow">index</span>)<span class="color-pink">=></span>index<span class="color-orange">+</span><span class="color-yellow">1</span>)
+    .<span class="color-blue">reduce</span>(
+      (<span class="color-yellow">acc</span>,<span class="color-yellow">item</span>)<span class="color-pink">=></span>item<span class="color-orange">%</span><span class="color-yellow">3</span><span class="color-orange">===</span><span class="color-yellow">0</span><span class="color-orange">||</span>item<span class="color-orange">%</span><span class="color-yellow">5</span><span class="color-orange">===</span><span class="color-yellow">0</span><span class="color-orange">?</span> acc<span class="color-orange">+</span>item<span class="color-orange">:</span>acc,<span class="color-yellow">0</span>) 		
+}
+                </pre>
               </div>
             </section>
             <section>
@@ -121,31 +158,48 @@
               </ul>
               <h6 class="heading-6 heading-examples">Work examples:</h6>
               <ul>
-                <li>
-                  <a href="https://github.com/whirligig/fast-company">
+                <li class="experience-item">
+                  <a
+                    href="https://github.com/whirligig/fast-company/"
+                    target="_blank"
+                  >
                     A project to find friends for the evening
                   </a>
                 </li>
-                <li>
-                  <a href="https://github.com/whirligigY/calculator">
+                <li class="experience-item">
+                  <a
+                    href="https://github.com/whirligigY/calculator/"
+                    target="_blank"
+                  >
                     Calculator
                   </a>
                 </li>
-                <li>
-                  <a href="https://github.com/whirligigY/hackathon">
+                <li class="experience-item">
+                  <a
+                    href="https://github.com/whirligigY/hackathon/"
+                    target="_blank"
+                  >
                     A context menu progect
                   </a>
                 </li>
               </ul>
               <h5 class="heading-5">Courses:</h5>
               <ul>
-                <li>RS School "JavaScript/Front-end Stage1" (2021 Q3)</li>
-                <li>
+                <li class="courses-item">
+                  RS School "JavaScript/Front-end Stage1" (2021 Q3)
+                </li>
+                <li class="courses-item">
                   JavaScript Junior Frontend Developer (Vladilen Minin school)
                 </li>
-                <li>JavaScript from the ground up (Skillbox online school)</li>
-                <li>Web layout for beginners (Skillbox school)</li>
-                <li>JavaScript baseline (Skillbox school)</li>
+                <li class="courses-item">
+                  JavaScript from the ground up (Skillbox online school)
+                </li>
+                <li class="courses-item">
+                  Web layout for beginners (Skillbox school)
+                </li>
+                <li class="courses-item">
+                  JavaScript baseline (Skillbox school)
+                </li>
               </ul>
             </section>
             <section>
@@ -153,12 +207,12 @@
                 Education:
               </h4>
               <ol>
-                <li>
+                <li class="education-item">
                   Tomsk Polytechnic University, Faculty of Automation and
                   Computer Engineering, specialty Mechatronics (engineering
                   degree, 2000-2006)
                 </li>
-                <li>
+                <li class="education-item">
                   Tomsk Polytechnic University, Faculty of Economics,
                   Accounting, Analysis, Audit (2007-2008)
                 </li>
@@ -189,5 +243,6 @@
         /></a>
       </div>
     </footer>
+    <script src="./index.js"></script>
   </body>
 </html>
